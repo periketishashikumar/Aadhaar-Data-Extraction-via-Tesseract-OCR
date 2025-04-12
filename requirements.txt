@@ -18,8 +18,4 @@ regex==2024.11.6
 sqlparse==0.5.3
 tqdm==4.67.1
 tzdata==2025.1
-<<<<<<< HEAD
 gunicorn
-=======
-gunicorn
->>>>>>> a9fdeba794d27178d64069afd499dd0e5c9803fe
