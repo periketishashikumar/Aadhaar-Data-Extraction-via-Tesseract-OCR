@@ -42,7 +42,7 @@ def adhaar(request):
         print("Name:", name_line)
         print("DOB:", dob.group() if dob else "Not found")
         print("Aadhaar Number:", aadhaar.group() if aadhaar else "Not found")
-        print(f"Gender : {gender if gender != None else "Not Found"}")
+        print(f"Gender : {gender if gender != None else 'Not Found'}")
 
         json = {
             "name" : name_line,
